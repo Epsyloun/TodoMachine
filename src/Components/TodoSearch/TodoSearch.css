@@ -1,0 +1,19 @@
+input[type=text] {
+    font-size: 1.5rem;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #888;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    text-align: center;
+  }
+
+  input[type=text]:focus {
+    border: 3px solid #4CAF50;
+  }
+  input::placeholder {
+    color: #ccc;
+  }

@@ -1,0 +1,41 @@
+.button-circle{
+    position: fixed;
+    bottom: 10%;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    font-size: 3rem;
+    background-color: white;
+    color: #4CAF50;
+    border: 5px solid #4CAF50;
+    transition: 0.5s;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.button-circle:hover{
+    background-color: #4CAF50; /* Green */
+    border: 5px solid #317033;
+    color: white;
+    transition: 0.5s;
+  }
+.button-red{
+    background-color: red; /* red */
+    border: 5px solid red;
+    color: white;
+    transition: 0.5s;
+  }
+  .button-red:hover{
+    background-color: red; /* red */
+    border: 5px solid rgb(119, 0, 0);
+    color: white;
+    transition: 0.5s;
+  }
+.red-text{
+    transform: rotate(45deg);
+    transition: 1s;
+  }
+.container{
+    display: flex;
+    justify-content: center;
+}

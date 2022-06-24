@@ -1,0 +1,70 @@
+
+.item-todo{
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 2%;
+    padding-left: 2%;
+    transition: 1s;
+    border-radius: 2%;
+    margin-bottom: 2%;
+    animation: fadeIn ease 2s;
+}@keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+p{
+    color: #000;
+    font-size: 2rem;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    transition: 1s;
+}
+
+.check{
+    text-align: center;
+    cursor: pointer;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    min-height: 50px;
+    min-width: 50px;
+    border-radius: 50%;
+    font-size: 2rem;
+    background-color: white;
+    color: #ccc;
+    border: 5px solid #CCC;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.delete{
+    margin-top: 10px;
+    margin-left: auto;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-bottom: auto;
+    color: #999;
+
+}
+.checked{
+    color: #4CAF50;
+    border: 5px solid #4CAF50;
+    transition: 1s;
+}
+.deletechecked{
+    color: #000;
+    transition: 1s;
+}
+.checked-word{
+    color: #888;
+    transition: 1s;
+    text-decoration:line-through;
+}
