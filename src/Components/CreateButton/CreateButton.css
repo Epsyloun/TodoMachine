@@ -1,41 +1,102 @@
-.button-circle{
+@media (max-width: 576px) {
+  .button-circle{
+    position: fixed;
+    bottom: 5%;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    font-size: 2rem;
+    background-color: #ccc;
+    color: #4CAF50;
+    border: 5px solid #4CAF50;
+    transition: 0.5s;
+    cursor: pointer;
+    z-index: 1;
+  }:focus {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .button-circle:hover{
+      background-color: #4CAF50; /* Green */
+      border: 5px solid #317033;
+      color: white;
+      transition: 0.5s;
+    }
+  .button-red{
+      background-color: red; /* red */
+      border: 5px solid red;
+      color: white;
+      transition: 0.5s;
+    }
+    .button-red:hover{
+      background-color: red; /* red */
+      border: 5px solid rgb(119, 0, 0);
+      color: white;
+      transition: 0.5s;
+    }
+  .red-text{
+      transform: rotate(45deg);
+      transition: 1s;
+    }
+  .container{
+      display: flex;
+      justify-content: flex-end;
+  }
+ }
+ @media (min-width: 768px) {
+  .button-circle{
     position: fixed;
     bottom: 10%;
     height: 100px;
     width: 100px;
     border-radius: 50%;
     font-size: 3rem;
-    background-color: white;
+    background-color: #ccc;
     color: #4CAF50;
     border: 5px solid #4CAF50;
     transition: 0.5s;
     cursor: pointer;
     z-index: 1;
-}
+  }:focus {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
 
-.button-circle:hover{
-    background-color: #4CAF50; /* Green */
-    border: 5px solid #317033;
-    color: white;
-    transition: 0.5s;
+  .button-circle:hover{
+      background-color: #4CAF50; /* Green */
+      border: 5px solid #317033;
+      color: white;
+      transition: 0.5s;
+    }
+  .button-red{
+      background-color: red; /* red */
+      border: 5px solid red;
+      color: white;
+      transition: 0.5s;
+    }
+    .button-red:hover{
+      background-color: red; /* red */
+      border: 5px solid rgb(119, 0, 0);
+      color: white;
+      transition: 0.5s;
+    }
+  .red-text{
+      transform: rotate(45deg);
+      transition: 1s;
+    }
+  .container{
+      display: flex;
+      justify-content: center;
   }
-.button-red{
-    background-color: red; /* red */
-    border: 5px solid red;
-    color: white;
-    transition: 0.5s;
-  }
-  .button-red:hover{
-    background-color: red; /* red */
-    border: 5px solid rgb(119, 0, 0);
-    color: white;
-    transition: 0.5s;
-  }
-.red-text{
-    transform: rotate(45deg);
-    transition: 1s;
-  }
-.container{
-    display: flex;
-    justify-content: center;
-}
+ }

@@ -1,4 +1,13 @@
-.titulo-counter{
-    font-size: 2rem;
-    text-align: right;
+
+@media (max-width: 576px) {
+    .titulo-counter{
+        font-size: 1.8rem;
+        text-align: center;
+    }
+}
+@media (min-width: 768px) {
+    .titulo-counter{
+        font-size: 2rem;
+        text-align: right;
+    }
 }

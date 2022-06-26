@@ -1,20 +1,44 @@
-.fecha-bloque{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-items: center;
+@media (max-width: 576px) {
+    .fecha-bloque{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .fecha{
+        font-size: 3rem;
+        color: #4CAF50;
+    }
+    .mes-fecha{
+        display: flex;
+        flex-direction: column;
+        font-size: 1.5rem;
+    }
+    .dia{
+        margin-left: auto;
+        font-size: 1.8rem;
+    }
 }
-.fecha{
-    font-size: 4rem;
-    color: #4CAF50;
-}
-.mes-fecha{
-    display: flex;
-    flex-direction: column;
-    font-size: 2rem;
-}
-.dia{
-    margin-left: auto;
-    font-size: 3rem;
+@media (min-width: 768px) {
+    .fecha-bloque{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .fecha{
+        font-size: 4rem;
+        color: #4CAF50;
+    }
+    .mes-fecha{
+        display: flex;
+        flex-direction: column;
+        font-size: 2rem;
+    }
+    .dia{
+        margin-left: auto;
+        font-size: 3rem;
+    }
 }

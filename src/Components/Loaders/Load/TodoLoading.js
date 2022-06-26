@@ -1,6 +1,7 @@
 import React from 'react';
 import './TodoLoading.css';
 
+//Componente para mostrar si esta cargando la informacion
 function TodoLoading() {
 
     return (

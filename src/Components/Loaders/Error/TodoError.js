@@ -1,5 +1,7 @@
 import React from 'react';
+import './TodoError.css';
 
+//Componente para mostrar si no hay errror
 function TodoError() {
     return (
         <div className='error'>

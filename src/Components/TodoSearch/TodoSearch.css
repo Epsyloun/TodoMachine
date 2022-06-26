@@ -1,4 +1,26 @@
-input[type=text] {
+@media (max-width: 576px) {
+  input[type=text] {
+    font-size: 1rem;
+    width: 100%;
+    padding: 10px 20px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 3px solid #888;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    text-align: center;
+  }
+
+  input[type=text]:focus {
+    border: 3px solid #4CAF50;
+  }
+  input::placeholder {
+    color: #ccc;
+  }
+}
+@media (min-width: 768px) {
+  input[type=text] {
     font-size: 1.5rem;
     width: 100%;
     padding: 12px 20px;
@@ -17,3 +39,4 @@ input[type=text] {
   input::placeholder {
     color: #ccc;
   }
+}
